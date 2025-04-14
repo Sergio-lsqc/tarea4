@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semana Santa en Bolivia</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.bundle.min.js" defer></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .top-bar {
+      background-color: #212529;
+      color: #fff;
+      font-size: 0.9rem;
+      padding: 0.3rem 1rem;
+    }
+
+    .navbar-custom {
+      background-color: #343a40;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .nav-link,
+    .navbar-custom .nav-link:focus,
+    .navbar-custom .nav-link:hover {
+      color: #ffa500;
+    }
+
+    .header-section {
+      background-color: #ffa500;
+      color: #fff;
+    }
+
+    footer {
+      background-color: #212529;
+      color: #ccc;
+    }
+
+    footer strong {
+      color: #ffa500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar text-center">
+    Proyecto Cultural - Bolivia | Semana Santa
+  </div>
+
+<nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">INICIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="recetas.html">RECETAS</a></li>
+          <li class="nav-item"><a class="nav-link" href="tradiciones.html">TRADICIONES</a></li>
+          <li class="nav-item"><a class="nav-link" href="turismo.html">TURISMO</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">HISTORIA</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-warning" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header-section text-center py-4">
+    <div class="container">
+      <h1 class="h4 mb-0"><strong>SEMANA SANTA EN BOLIVIA</strong></h1>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <p class="text-center"></p>
+  </main>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carrusel_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel_2.jpg" class="d-block w-100" alt="img/carrusel_1.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel_3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <footer class="text-center py-3 mt-5">
+    <div class="container">
+      <span>Realizado por: <strong>Sergio Quispe Calle</strong></span>
+    </div>
+  </footer>
+
+</body>
+</html>
